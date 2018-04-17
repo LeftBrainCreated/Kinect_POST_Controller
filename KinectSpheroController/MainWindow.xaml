@@ -1,0 +1,29 @@
+﻿<Window x:Class="KinectSpheroController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinectSpheroController"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="682" Width="1258" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid Margin="0,0,0,0">
+        <Canvas Name="MainCanvas">
+            <Image x:Name="image" HorizontalAlignment="Left" Height="578" VerticalAlignment="Top" Width="873" Canvas.Left="204" Canvas.Top="6"/>
+            <Ellipse x:Name="rightElipses" Fill="#FF2CACE3" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Canvas.Left="1179" Canvas.Top="10"/>
+            <Image x:Name="imageFace" HorizontalAlignment="Left" Height="50" Margin="70,79,0,0" VerticalAlignment="Top" Width="50">
+
+            </Image>
+            <Label x:Name="lblX" Content="Label" Canvas.Left="17" Canvas.Top="141" FontSize="36"/>
+            <Label x:Name="lblY" Content="Label" Canvas.Left="17" Canvas.Top="186" FontSize="36"/>
+            <Label x:Name="player1TitleLabel" Content="Label" Canvas.Left="19" Canvas.Top="77" FontSize="36"/>
+            <Ellipse x:Name="redElipses" Fill="#FFCD0E0E" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Canvas.Left="12" Canvas.Top="10"/>
+            <Label x:Name="lblLeft" Content="Label" Canvas.Left="7" Canvas.Top="593" FontSize="36"/>
+            <Label x:Name="lblRight" Content="Label" Canvas.Left="123" Canvas.Top="595" FontSize="36"/>
+            <Label x:Name="player2TitleLabel" Content="Label" Canvas.Left="1051" Canvas.Top="65" FontSize="36"/>
+            <Label x:Name="lblY_2" Content="Label" Canvas.Left="1055" Canvas.Top="194" FontSize="36"/>
+            <Label x:Name="lblX_2" Content="Label" Canvas.Left="1055" Canvas.Top="141" FontSize="36"/>
+            <Label x:Name="lblLeft_2" Content="Label" Canvas.Left="963" Canvas.Top="589" FontSize="36"/>
+            <Label x:Name="lblRight_2" Content="Label" Canvas.Left="1083" Canvas.Top="587" FontSize="36"/>
+        </Canvas>
+    </Grid>
+</Window>
